@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: #fff7ed; /* orange-50 */
+  color: #292524;      /* stone-800 */
+  font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+}
+
+/* Soft scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #fff7ed; }
+::-webkit-scrollbar-thumb { background: #e7e5e4; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #d6d3d1; }
