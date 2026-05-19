@@ -168,7 +168,7 @@ Restaurants ──1:N──> Dishes
 
 **План реалізації:**
 
-
+"""
 backend/
 ├── main.py                         # Точка входу FastAPI, CORS, підключення роутерів
 ├── database.py                     # SQLAlchemy engine + SessionLocal + Base
@@ -204,7 +204,7 @@ backend/
     ├── dish_controller.py
     └── order_controller.py
 
-
+"""
 ---
 
 ### 3. Контролери та Запити (Лабораторна 3)
