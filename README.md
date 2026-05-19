@@ -18,7 +18,7 @@
 
 ### Крок 1. Запуск Backend (Серверна частина)
 У першому терміналі перейдіть до папки бекенду:
-```bash
+bash
 cd code/backend
 Створіть віртуальне середовище:
 
@@ -168,7 +168,7 @@ Restaurants ──1:N──> Dishes
 
 **План реалізації:**
 
-```
+
 backend/
 ├── main.py                         # Точка входу FastAPI, CORS, підключення роутерів
 ├── database.py                     # SQLAlchemy engine + SessionLocal + Base
@@ -203,7 +203,7 @@ backend/
     ├── restaurant_controller.py
     ├── dish_controller.py
     └── order_controller.py
-```
+
 
 ---
 
