@@ -167,8 +167,7 @@ Restaurants ──1:N──> Dishes
 **Вимога викладача:** Створити папки на сервері: Controllers, Repositories, BusinessLogic, Domain. У Domain створити ViewModels та перенести таблиці з БД у вигляді класів (Models).
 
 **План реалізації:**
-
-"""
+```
 backend/
 ├── main.py                         # Точка входу FastAPI, CORS, підключення роутерів
 ├── database.py                     # SQLAlchemy engine + SessionLocal + Base
@@ -203,8 +202,7 @@ backend/
     ├── restaurant_controller.py
     ├── dish_controller.py
     └── order_controller.py
-
-"""
+```
 ---
 
 ### 3. Контролери та Запити (Лабораторна 3)
@@ -339,7 +337,7 @@ class OrderService:
   5. Сервер розраховує `total_price`, створює замовлення
   6. Юзер бачить статус замовлення на сторінці `/orders`
 
----
+
 
 ## 📋 Порядок реалізації
 
